@@ -70,90 +70,50 @@ Prescribed medications, lab tests, and follow-up instructions.
 Patients can select doctors and book appointments with necessary details.
 Appointments are categorized by date and time for better organization.
 
-12. View Today’s Appointments:
-Doctors can view all appointments scheduled for the current day.
-Filters appointments by doctor name and current date.
-
-
-# Health Data Management
-13. Submit and Analyze Health Data:
-Patients can submit health data, including:
-Blood pressure, heart rate, temperature, and sleep hours.
-Backend calculates a health percentage score based on input data.
-Provides real-time health analysis to patients.
 
 # Patient Report Management
-14. Submit Reports:
+12. Submit Reports:
 Doctors can submit detailed reports after patient visits.
 
-15. Reports include:
-Visit information (date, reason).
-Symptoms, diagnosis, and treatment plans.
-Prescribed medications and dosage instructions.
-Follow-up requirements and instructions.
-Lab test results and additional recommendations.
-
-16. View Patient Reports:
-Doctors can search for patient reports by name.
-Filtered results display summarized information, such as:
-Visit date, diagnosis, and patient name.
-
-17. Comprehensive Report Storage:
-All reports are securely stored in Firestore for easy retrieval.
 
 
 # Frontend Features
-18. Role-Based Dashboards:
+13. Role-Based Dashboards:
 Separate dashboards for patients and doctors.
 Adaptive navigation based on user role.
 
-19. Responsive Design:
+14. Responsive Design:
 Fully responsive UI for mobile, tablet, and desktop.
 
-20. Interactive Forms:
+15. Interactive Forms:
 All forms (login, signup, health data submission, report submission) are user-friendly and validated.
 Clear error messages guide users for corrections.
 
-21. Health Metrics Visualization:
-Health data is visualized as a progress bar for better understanding.
-Dynamic feedback for improving health metrics.
-
 
 # Backend Features
-22. Secure Authentication:
-Role-based token management.
-Passwords hashed using bcrypt.
 
-23. Optimized Data Queries:
+16. Optimized Data Queries:
 Efficient Firestore queries for retrieving role-specific and date-specific data.
 Filters appointments, reports, and histories for better performance.
 
-24. Error Handling:
+17. Error Handling:
 Detailed error messages for invalid inputs or missing data.
 Handles empty scenarios gracefully (e.g., no appointments).
 
-25. Comprehensive API Endpoints:
-Endpoints for login, signup, profile management, appointment booking, and report submission.
-
-
 # Security
-26. Secure Data Handling:
+18. Secure Data Handling:
 All sensitive data (passwords, reports) is securely stored.
 Backend validation ensures no invalid data is processed.
 
-27. CORS Configuration:
+18. CORS Configuration:
 Prevents unauthorized access with appropriate origin and method configurations.
 
 # Additional Features
-28. Notifications for Empty States:
+19. Notifications for Empty States:
 Doctors are notified if no appointments are scheduled for the day.
 Patients receive confirmations for successful bookings.
 
-29. Admin-Friendly Management:
-Fetch all patients, doctors, appointments, and reports for administrative oversight.
 
-30. Cross-Browser Support:
-Compatible with modern browsers, ensuring wider usability.
 
 
 
