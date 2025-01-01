@@ -11,9 +11,6 @@
 Patients and doctors can log in using email and password.
 Credentials are validated with hashed passwords using bcrypt.
 A token is generated along with user role (patient or doctor) and name for personalized session handling.
-
-2. Signup:
-
 Patient Signup:
 Patients can register with details like name, age, gender, blood type, allergies, diseases, and last visit details.
 Passwords are securely hashed before storage.
@@ -21,9 +18,7 @@ Doctor Signup:
 Doctors can register with professional details such as specialization, experience, consultation fee, and hospital affiliation.
 Secure password handling with bcrypt.
 
-3. Role-Based Navigation:
-The frontend dynamically adapts based on the role (patient or doctor).
-Separate dashboards for patients and doctors.
+
 
 
 # Patient Features
@@ -78,7 +73,7 @@ Doctors can submit detailed reports after patient visits.
 
 
 # Frontend Features
-13. Role-Based Dashboards:
+13. Role-Based :
 Separate dashboards for patients and doctors.
 Adaptive navigation based on user role.
 
@@ -90,26 +85,13 @@ All forms (login, signup, health data submission, report submission) are user-fr
 Clear error messages guide users for corrections.
 
 
-# Backend Features
-
-16. Optimized Data Queries:
-Efficient Firestore queries for retrieving role-specific and date-specific data.
-Filters appointments, reports, and histories for better performance.
-
-17. Error Handling:
-Detailed error messages for invalid inputs or missing data.
-Handles empty scenarios gracefully (e.g., no appointments).
-
 # Security
-18. Secure Data Handling:
+16. Secure Data Handling:
 All sensitive data (passwords, reports) is securely stored.
 Backend validation ensures no invalid data is processed.
 
-18. CORS Configuration:
-Prevents unauthorized access with appropriate origin and method configurations.
-
 # Additional Features
-19. Notifications for Empty States:
+17. Notifications for Empty States:
 Doctors are notified if no appointments are scheduled for the day.
 Patients receive confirmations for successful bookings.
 
