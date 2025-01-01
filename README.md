@@ -1,8 +1,8 @@
 # This project is a full-stack healthcare management system that bridges the gap between patients and doctors. It encompasses features for user authentication, profile management, appointments, health data, and patient reports.
 
 ## contributers:
-1-Nouran Yasser Salama   120220250
-2-Sara Ayman AbdelMoneim  120220240
+1-Nouran Yasser Salama   120220250       "frontend"
+2-Sara Ayman AbdelMoneim  120220240       "backend"
 
 ## Aimed features:
 # User Authentication and Role-Based Access
